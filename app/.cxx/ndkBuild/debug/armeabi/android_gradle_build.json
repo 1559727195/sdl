@@ -1,0 +1,943 @@
+{
+  "buildFiles": [
+    "E:\\video\\sdl\\app\\src\\main\\jni\\Android.mk",
+    "E:\\video\\sdl\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dE:/video/sdl/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dE:/video/sdl/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "SDL2-debug-armeabi": {
+      "buildCommand": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dE:/video/sdl/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\lib E:/video/sdl/app/build/intermediates/ndkBuild/debug/obj/local/armeabi/libSDL2.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "SDL2",
+      "files": [
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_assert.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_error.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_hints.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_log.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\atomic\\SDL_atomic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\atomic\\SDL_spinlock.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -marm -O2 -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiocvt.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiodev.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiotypecvt.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_mixer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_wave.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\android\\SDL_androidaudio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\dummy\\SDL_dummyaudio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\core\\android\\SDL_android.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\cpuinfo\\SDL_cpuinfo.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\dynapi\\SDL_dynapi.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_clipboardevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_dropevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_events.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_gesture.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_keyboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_mouse.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_quit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_touch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_windowevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\file\\SDL_rwops.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\filesystem\\dummy\\SDL_sysfilesystem.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\haptic\\SDL_haptic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\haptic\\dummy\\SDL_syshaptic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\SDL_gamecontroller.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\SDL_joystick.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\android\\SDL_sysjoystick.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\loadso\\dlopen\\SDL_sysloadso.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\power\\SDL_power.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\power\\android\\SDL_syspower.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_d3dmath.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_render.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_yuv_mmx.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_yuv_sw.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\direct3d\\SDL_render_d3d.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\direct3d11\\SDL_render_d3d11.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengl\\SDL_render_gl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengl\\SDL_shaders_gl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles\\SDL_render_gles.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles2\\SDL_render_gles2.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles2\\SDL_shaders_gles2.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\psp\\SDL_render_psp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendfillrect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendline.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendpoint.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_drawline.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_drawpoint.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_render_sw.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_rotate.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\simplest_showbmp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_getenv.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_iconv.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_malloc.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_qsort.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_stdlib.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_string.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_assert.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_common.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_compare.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_crc32.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_font.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_fuzzer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_harness.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageBlit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageBlitBlend.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageFace.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imagePrimitives.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imagePrimitivesBlend.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_log.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_md5.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_random.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\SDL_thread.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_syscond.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_sysmutex.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_syssem.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_systhread.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_systls.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\timer\\SDL_timer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\timer\\unix\\SDL_systimer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_RLEaccel.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_0.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_1.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_A.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_N.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_auto.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_copy.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_slow.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_bmp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_clipboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_egl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_fillrect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_pixels.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_rect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_shape.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_stretch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_surface.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_video.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidclipboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidgl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidkeyboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidtouch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidvideo.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidwindow.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        }
+      ],
+      "output": "E:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi\\libSDL2.so"
+    },
+    "SDL2main-debug-armeabi": {
+      "buildCommand": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\video\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dE:/video/sdl/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\lib E:/video/sdl/app/build/intermediates/ndkBuild/debug/obj/local/armeabi/libSDL2main.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "SDL2main",
+      "files": [
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\.\\src\\main\\android\\SDL_android_main.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/.//include -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\.\\src\\simplest_showbmp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/.//include -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_assert.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_error.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_hints.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\SDL_log.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\atomic\\SDL_atomic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\atomic\\SDL_spinlock.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -marm -O2 -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiocvt.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiodev.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_audiotypecvt.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_mixer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\SDL_wave.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\android\\SDL_androidaudio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\audio\\dummy\\SDL_dummyaudio.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\core\\android\\SDL_android.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\cpuinfo\\SDL_cpuinfo.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\dynapi\\SDL_dynapi.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_clipboardevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_dropevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_events.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_gesture.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_keyboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_mouse.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_quit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_touch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\events\\SDL_windowevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\file\\SDL_rwops.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\filesystem\\dummy\\SDL_sysfilesystem.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\haptic\\SDL_haptic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\haptic\\dummy\\SDL_syshaptic.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\SDL_gamecontroller.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\SDL_joystick.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\joystick\\android\\SDL_sysjoystick.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\loadso\\dlopen\\SDL_sysloadso.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\power\\SDL_power.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\power\\android\\SDL_syspower.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_d3dmath.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_render.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_yuv_mmx.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\SDL_yuv_sw.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\direct3d\\SDL_render_d3d.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\direct3d11\\SDL_render_d3d11.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengl\\SDL_render_gl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengl\\SDL_shaders_gl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles\\SDL_render_gles.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles2\\SDL_render_gles2.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\opengles2\\SDL_shaders_gles2.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\psp\\SDL_render_psp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendfillrect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendline.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_blendpoint.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_drawline.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_drawpoint.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_render_sw.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\render\\software\\SDL_rotate.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\simplest_showbmp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_getenv.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_iconv.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_malloc.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_qsort.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_stdlib.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\stdlib\\SDL_string.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_assert.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_common.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_compare.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_crc32.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_font.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_fuzzer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_harness.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageBlit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageBlitBlend.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imageFace.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imagePrimitives.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_imagePrimitivesBlend.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_log.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_md5.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\test\\SDL_test_random.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\SDL_thread.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_syscond.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_sysmutex.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_syssem.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_systhread.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\thread\\pthread\\SDL_systls.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\timer\\SDL_timer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\timer\\unix\\SDL_systimer.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_RLEaccel.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_0.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_1.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_A.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_N.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_auto.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_copy.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_blit_slow.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_bmp.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_clipboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_egl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_fillrect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_pixels.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_rect.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_shape.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_stretch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_surface.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\SDL_video.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidclipboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidevents.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidgl.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidkeyboard.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidtouch.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidvideo.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        },
+        {
+          "src": "E:\\video\\sdl\\app\\src\\main\\jni\\src\\video\\android\\SDL_androidwindow.c",
+          "flags": "-fpic -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -g -march\u003darmv5te -mtune\u003dxscale -msoft-float -mthumb -Os -DNDEBUG -IE:/video/sdl/app/src/main/jni/include -IE:/video/sdl/app/src/main/jni -DANDROID -DGL_GLEXT_PROTOTYPES -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/music/android-ndk-r14b-windows-x86_64/android-ndk-r14b/build//../platforms/android-15/arch-arm"
+        }
+      ],
+      "output": "E:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi\\libSDL2main.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cCompilerExecutable": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\build\\..\\toolchains\\arm-linux-androideabi-4.9\\prebuilt\\windows-x86_64\\bin\\arm-linux-androideabi-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

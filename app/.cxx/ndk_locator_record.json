@@ -1,0 +1,41 @@
+{
+  "ndkFolder": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b",
+  "messages": [
+    {
+      "level": "INFO",
+      "message": "android.ndkVersion from module build.gradle is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "ndk.dir in local.properties is E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b"
+    },
+    {
+      "level": "INFO",
+      "message": "ANDROID_NDK_HOME environment variable is not set"
+    },
+    {
+      "level": "INFO",
+      "message": "sdkFolder is F:\\sdk"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b by ndk.dir"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering F:\\sdk\\ndk-bundle in SDK ndk-bundle folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering F:\\sdk\\ndk\\16.1.4479499 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Considering F:\\sdk\\ndk\\21.0.6113669 in SDK ndk folder"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested ndk.dir (E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b) which has version 14.1.3816874"
+    }
+  ]
+}

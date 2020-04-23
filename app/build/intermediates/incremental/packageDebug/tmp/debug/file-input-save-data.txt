@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Fri Apr 03 15:00:03 CST 2020
+2.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+5.set=NATIVE_RESOURCE
+0.path=lib/armeabi/libSDL2.so
+2.baseType=DIRECTORY
+3.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+2.set=NATIVE_RESOURCE
+1.path=lib/armeabi/libSDL2main.so
+4.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+count=7
+5.baseType=DIRECTORY
+2.path=lib/x86/libSDL2.so
+5.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.set=DEX
+3.path=lib/x86/libSDL2main.so
+6.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=classes.dex
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/armeabi-v7a/libSDL2.so
+0.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=lib/armeabi-v7a/libSDL2main.so
+1.base=D\:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE

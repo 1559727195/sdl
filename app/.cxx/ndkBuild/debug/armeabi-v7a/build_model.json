@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\video\\sdl",
+      "sdkFolder": "F:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\video\\sdl\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\video\\sdl\\app",
+      "makeFile": "E:\\video\\sdl\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "E:\\video\\sdl\\.cxx",
+      "cxxFolder": "E:\\video\\sdl\\app\\.cxx",
+      "ndkFolder": "E:\\music\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b",
+      "ndkVersion": "14.1.3816874",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "X86",
+        "MIPS"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "X86",
+        "MIPS"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "E:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "E:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "E:\\video\\sdl\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI",
+      "ARMEABI_V7A",
+      "X86",
+      "MIPS"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 15,
+  "cxxBuildFolder": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "jsonFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\video\\sdl\\app\\.cxx\\cxx\\debug\\armeabi-v7a",
+  "objFolder": "E:\\video\\sdl\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a",
+  "buildCommandFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\video\\sdl\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\compile_commands.json"
+}

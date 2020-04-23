@@ -1,0 +1,2 @@
+make: Nothing to be done for `SDL2'.
+make: Nothing to be done for `SDL2main'.

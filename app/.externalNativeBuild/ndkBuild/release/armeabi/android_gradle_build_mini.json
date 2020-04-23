@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "D:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Android.mk",
+    "D:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/sraum2.0/HALlayerdriver/sdl/sdl/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "SDL2main-release-armeabi": {
+      "artifactName": "SDL2main",
+      "buildCommand": "D:\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/sraum2.0/HALlayerdriver/sdl/sdl/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/sraum2.0/HALlayerdriver/sdl/sdl/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libSDL2main.so",
+      "abi": "armeabi",
+      "output": "D:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi\\libSDL2main.so"
+    },
+    "SDL2-release-armeabi": {
+      "artifactName": "SDL2",
+      "buildCommand": "D:\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b-windows-x86_64\\android-ndk-r14b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/sraum2.0/HALlayerdriver/sdl/sdl/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/sraum2.0/HALlayerdriver/sdl/sdl/app/build/intermediates/ndkBuild/release/obj/local/armeabi/libSDL2.so",
+      "abi": "armeabi",
+      "output": "D:\\sraum2.0\\HALlayerdriver\\sdl\\sdl\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi\\libSDL2.so"
+    }
+  }
+}
